@@ -1,0 +1,148 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+\usepackage[swedish, british]{babel}  
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{datetime}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, urlcolor=black, pagecolor=black, linkcolor=black,
+citecolor=black, filecolor=black, menucolor=black, pdfpagelayout=TwoColumnRight, 
+pdfstartview=FitH, plainpages=false, pdfpagelabels,]{hyperref}
+%\usepackage[latin1]{inputenc}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+\renewcommand\headrulewidth{0pt} % Removes funny header line 
+\newdateformat{mydate}{\ordinal{DAY} \monthname[\THEMONTH], \THEYEAR}
+\setdefaultdate{\mydate}
+\cfoot{\moveleft.5\hoffset\centerline{\thepage\ of 2} }
+\begin{document}
+\setcounter{page}{1}
+
+\moveleft.5\hoffset\centerline{\large\bf Karl Dahlgren}
+\moveleft.5\hoffset\centerline{\emph{ Last updated: \today }}
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+
+ 
+
+
+\begin{resume}
+ 
+\section{COURSE \\ LIST} 
+
+
+			{\bf \href{http://www.kth.se/}{Royal Institute of Technology (KTH)}}
+			\hfill 2011 - 2013 \\ 
+			{\bf \href{http://www.kth.se/ict/}{Information and communications
+			technology (ICT)} \\ Stockholm, Sweden} \\
+			Master’s Degree in Science \\			Software Engineering of Distributed Systems \\
+					    \begin{itemize}  \itemsep -2pt %reduce space between items
+					      \item Distributed Systems, Basic Course
+					      \item Modern Methods in Software Engineering
+					      \item Distributed Artificial Intelligence and Intelligent Agents
+					      \item Network Programming with Java \\
+					      \item Programming Web-Services
+					      \item Distributed Systems, Advanced Course
+					      \item Distributed Computing, Peer-to-Peer and GRIDS
+					      \item Ubiquitous Computing \\
+					      \item Research Methodology and Scientific Writing
+					      \item Practical Voice Over IP (VoIP)
+						  \item Internet Security and Privacy
+					    \end{itemize}
+
+			{\bf \href{http://www.su.se/}{Stockholm University (SU)}} \hfill 2008
+			- 2011 \\ 
+			{\bf \href{http://dsv.su.se/}{Department of Computer and Systems
+			Science (DSV)} \\ Stockholm, Sweden} \\
+			Bachelor's Degree in Science  \\
+			Computer Science \\
+			Thesis: Motion Control: In control or out of control? \\
+		    \begin{itemize}  \itemsep -2pt %reduce space between items
+          		\item Introduction to Game Design
+          		\item Computer Systems
+          		\item Object-Oriented Analysis and Design
+          		\item Object Oriented Programming \\
+          		\item Basic Video and Audio Management
+          		\item Programming 2
+          		\item Database Methodology
+          		\item Media Technologies for the Internet, Game Development \\
+          		\item AI in Games
+          		\item Online games, gaming communities and promotional games
+          		\item 3D graphics for computer games development
+          		\item Programming in C and C++ \\
+          		\item 3D Game Development
+          		\item Algorithms and Data Structures
+          		\item Use and programming of game engines
+          		\item Game Design \\
+          		\item Scientific methods and techniques
+          		\item Introduction to testing
+          		\item Internet Programming I
+          		\item Multimedia Programming in Python \\
+          		\item Web programming with Python
+          		\item Parallel and distributed programming
+          		\item Project work in Game design (15 ECTS)
+    		\end{itemize}
+		    
+		     
+		   	{\bf \href{http://www.hgo.se/}{Gotland University (HGO)}} \hfill 2009
+			- 2010 \\ 
+			{\bf Gotland, Sweden} \\
+			Various courses \\
+			Computer Science \\
+		    \begin{itemize}  \itemsep -2pt %reduce space between items
+          		\item Introduction to Game Programming
+          		\item Introduction to Artificial Intelligence for Game Programming
+          		\item Artificial Intelligence for Game Programming II 
+    		\end{itemize}
+    		
+    		{\bf \href{http://www.mah.se/}{Malmö University (MAH)}} \hfill 2010 \\
+			{\bf Malmö, Sweden} \\
+			Various courses \\
+			Computer Science \\
+		    \begin{itemize}  \itemsep -2pt %reduce space between items
+		       	\item Programming using .NET, Advanced Course
+		    \end{itemize}
+		    
+		    {\bf \href{http://www.umu.se/}{Umeå University (UMU)}} \hfill 2011 \\
+			{\bf Umeå, Sweden} \\
+			Various courses \\
+			Computer Science \\
+			\begin{itemize}  \itemsep -2pt %reduce space between items
+		       	\item Application development for iPhone
+		    \end{itemize}
+		    
+		 {\bf \href{http://www.kau.se/}{Malmö University (MAH)}} \hfill 2012 \\
+			{\bf Malmö, Sweden} \\
+			Various courses \\
+			Computer Science \\
+		    \begin{itemize}  \itemsep -2pt %reduce space between items
+		       	\item Programming using .NET, Advanced Course
+		    \end{itemize}
+		    
+		    {\bf \href{http://www.umu.se/}{Karlstad university (KAU)}} \hfill 2012 \\
+			{\bf Karlstad, Sweden} \\
+			Various courses \\
+			Computer Science \\
+			\begin{itemize}  \itemsep -2pt %reduce space between items
+		       	\item Applied programming (15 ECTS)
+		    \end{itemize}
+		    
+
+
+	
+\end{resume}
+
+\vspace{1em}
+\null
+\vfill
+    \begin{figure}[h]
+        		\moveleft.5\hoffset\centerline{\includegraphics[width=2cm]{../image/qr.png}}
+    \end{figure}
+\moveleft.5\hoffset\centerline{\small{ Last updated: \today }}
+\moveleft.5\hoffset\centerline{\small{\url{http://karl.dahlgren.info/}}
+}
+\end{document}
+
+
+
+
